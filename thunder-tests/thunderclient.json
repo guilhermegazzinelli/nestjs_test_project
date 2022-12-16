@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "0a5490d8-a1fa-441d-834a-13472c6ce538",
+    "colId": "cd6f0960-13f7-44e7-9b7b-51feb19c4254",
+    "containerId": "",
+    "name": "Get all Products",
+    "url": "localhost:3000/products",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-12-16T17:44:38.584Z",
+    "modified": "2022-12-16T17:44:38.584Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "6126aa15-3200-495d-bb83-4ebb18d97e39",
+    "colId": "cd6f0960-13f7-44e7-9b7b-51feb19c4254",
+    "containerId": "",
+    "name": "Create",
+    "url": "localhost:3000/products",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-12-16T17:46:21.119Z",
+    "modified": "2022-12-16T17:46:21.119Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"title\": \"Test product\", \n  \"description\": \"Test Product\", \n  \"price\": 22.22\n  \n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "242ac802-2e3d-422f-83bc-c7b4df6297c2",
+    "colId": "cd6f0960-13f7-44e7-9b7b-51feb19c4254",
+    "containerId": "",
+    "name": "Get one Product",
+    "url": "localhost:3000/products/0.2084370297310508",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-12-16T17:52:59.983Z",
+    "modified": "2022-12-16T17:58:20.789Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "91ec38fa-0127-4372-b4b4-f5a4ab44464b",
+    "colId": "cd6f0960-13f7-44e7-9b7b-51feb19c4254",
+    "containerId": "",
+    "name": "Delete product",
+    "url": "localhost:3000/products/0.20941632520600129",
+    "method": "DELETE",
+    "sortNum": 30000,
+    "created": "2022-12-16T18:12:17.351Z",
+    "modified": "2022-12-16T18:33:52.273Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7ed18333-5d40-4244-a963-60db94c6b58f",
+    "colId": "cd6f0960-13f7-44e7-9b7b-51feb19c4254",
+    "containerId": "",
+    "name": "Update Product",
+    "url": "localhost:3000/products/0.9867042385498879",
+    "method": "PATCH",
+    "sortNum": 40000,
+    "created": "2022-12-16T18:22:17.923Z",
+    "modified": "2022-12-16T18:22:17.923Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"title\": \"Teste de update\", \n  \"description\": \"Test Product\", \n  \"price\": 22\n  \n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
